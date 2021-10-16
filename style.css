@@ -1,0 +1,38 @@
+.offer-sec {
+    margin: 120px 140px;
+}
+
+* {
+    margin: 0;
+}
+
+.offer-header {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.offer-header::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100px;
+    margin: 10px auto 110px;
+    background-color:#F5BD41;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.icon-label {
+    margin-top: 50px;
+    font-size: 24px;
+    line-height: 28px;
+}
