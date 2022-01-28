@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <form class="container" id="mainForm">
+            <div class="formBox">
+                <div class="formInputs">
+                    <div class="input">
+                        <span class="counterNumber" id="adultsCounter"></span>
+                        Adults
+                        <span class="inputHyphen">—</span>
+                    </div>
+                    <div class="input">
+                        <span class="counterNumber" id="childrenCounter"></span>
+                        Children
+                        <span class="inputHyphen">—</span>
+                    </div>
+                    <div class="input">
+                        <span class="counterNumber" id="roomsCounter"></span>
+                        Room
+                    </div>
+                </div>
+
+                <div class="activateSecondMenu">
+                    <div class="counterContainer">
+                        <div class="namesNumberChanger">
+                            <label for="adultsInput">Adults</label>
+                            <label for="childrenInput">Children</label>
+                            <label for="roomsInput">Rooms</label>
+                        </div>
+                        <div class="counters">
+                            <div class="counter">
+                                <div class="numberChanger">
+                                    <button type="button" class="btn btnCounterMin btnActive" >-</button>
+                                    <input id="adultsInput" type="number" name="adults"/>
+                                    <button type="button" class="btn btnCounterPlus btnActive">+</button>
+                                </div>
+                            </div>
+                            <div class="counter">
+                                <div class="numberChanger">
+                                    <button type="button" class="btnCounterMin btnActive">-</button>
+                                    <input id="childrenInput" type="number" name="children"/>
+                                    <button type="button" class="btnCounterPlus btnActive">+</button>
+                                </div>
+                            </div>
+                            <div class="counter">
+                                <div class="numberChanger">
+                                    <button type="button" class="btnCounterMin btnActive">-</button>
+                                    <input id="roomsInput" type="number" name="rooms"/>
+                                    <button type="button" class="btnCounterPlus btnActive">+</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="addAgeChildren" id="childrenSelectorsTitle">
+                        What is the age of the child you’re travelling with?
+                    </div>
+                    <div class="selectors" id="childrenSelectors">
+
+                    </div>
+                </div>
+            </div>
+            <button>Search</button>
+        </form>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

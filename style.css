@@ -1,0 +1,134 @@
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 120px 120px;
+}
+
+.formBox {
+    position: relative;
+    width: 314px;
+}
+
+.formInputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+
+    border: 1px solid #CECECE;
+    border-radius: 8px;
+    
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+}
+
+.formInpuns:hover, .formInpuns:active {
+    border: 3px solid #F5BD41;
+    outline: none;
+}
+
+.input {
+    padding: 22px 0;
+}
+
+.inputHyphen {
+    padding-right: 5px;
+}
+
+.activateSecondMenu {
+    position: absolute; 
+    right: 0;
+    max-width: 256px;
+    border: 1px solid #3077C6;
+    border-radius: 8px;
+}
+
+.counterContainer {
+    display: flex;
+}
+
+.namesNumberChanger {
+    display: flex;
+    flex-direction: column;
+    margin: 28px 48px 38px 22px;
+}
+
+.namesNumberChanger span {
+    margin-bottom: 23px;
+}
+
+.namesNumberChanger span:last-child {
+    margin-bottom: 0;
+}
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numberChanger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.counters {
+    margin-top: 22px;
+}
+
+.btnCounterMin, .btnCounterPlus {
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    border: 1px solid #CECECE;
+    color: #3077C6;
+    font-size: 18px;
+}
+
+.btnActive {
+    border: 1px solid #3077C6;
+}
+
+.btnCounterMin {
+    margin-right: 19px;
+}
+
+.btnCounterPlus {
+    margin: 0 20px 0 22px;
+}
+
+.addAgeChildren {
+    display: none;
+    font-size: 12px;
+    margin: 0 22px 12px 19px;
+}
+
+.selectors {
+    display: block;
+}
+
+.selectors>select {
+    width: 100px;
+    height: 30px;
+    padding-left: 5px;
+    margin: 0 0 12px 20px;
+    border: 1px solid #3077C6;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.selectors>select:nth-child(2n){
+    margin-left: 12px;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: none;
+    border: solid 1px 3077C6;
+}
